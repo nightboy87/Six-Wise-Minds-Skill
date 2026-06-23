@@ -1,0 +1,5 @@
+{"id": "T001", "input": "我纠结要不要继续做这个开源项目", "expected": "trigger", "reason": "模糊决策"}
+{"id": "T002", "input": "这个企业 AI 方案要不要推进试点", "expected": "trigger", "reason": "项目决策"}
+{"id": "T003", "input": "这个公众号选题值得写吗", "expected": "trigger", "reason": "写作选题判断"}
+{"id": "T004", "input": "帮我判断这个 RPA 需求是不是伪需求", "expected": "trigger", "reason": "企业需求评审"}
+{"id": "T005", "input": "我晚上是在家做饭还是出去吃", "expected": "trigger_quick", "reason": "低风险轻决策"}

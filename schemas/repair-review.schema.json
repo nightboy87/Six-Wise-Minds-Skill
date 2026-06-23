@@ -1,0 +1,31 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "RepairReview",
+  "type": "object",
+  "required": [
+    "needed",
+    "target",
+    "reason",
+    "repair_scope",
+    "repair_count_after_this"
+  ],
+  "properties": {
+    "needed": {
+      "type": "boolean"
+    },
+    "target": {
+      "type": "string"
+    },
+    "reason": {
+      "type": "string"
+    },
+    "repair_scope": {
+      "type": "string"
+    },
+    "repair_count_after_this": {
+      "type": "integer",
+      "minimum": 0,
+      "maximum": 1
+    }
+  }
+}

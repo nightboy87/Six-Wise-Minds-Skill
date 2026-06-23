@@ -1,0 +1,22 @@
+{
+  "name": "six-wise-minds",
+  "display_name": "六个聪明人 Skill / Six Wise Minds Skill",
+  "version": "1.0.0",
+  "description": "A traceable, observable, evaluable multi-agent decision advisory skill based on six thinking modes.",
+  "entrypoint": "SKILL.md",
+  "license": "MIT",
+  "language": [
+    "zh-CN",
+    "en"
+  ],
+  "requires_scripts": false,
+  "requires_ui": false,
+  "requires_long_term_memory": false,
+  "supports": [
+    "Codex",
+    "Claude Code",
+    "OpenClaw",
+    "Generic Agent"
+  ],
+  "anti_loop_policy": "Each deliberation allows at most one local repair pass."
+}

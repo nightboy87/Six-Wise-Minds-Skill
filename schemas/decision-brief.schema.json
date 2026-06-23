@@ -1,0 +1,87 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "DecisionBrief",
+  "type": "object",
+  "required": [
+    "surface_question",
+    "implicit_question",
+    "council_question",
+    "decision_type",
+    "risk_level",
+    "known_context",
+    "missing_context"
+  ],
+  "properties": {
+    "surface_question": {
+      "type": "string"
+    },
+    "implicit_question": {
+      "type": "string"
+    },
+    "council_question": {
+      "type": "string"
+    },
+    "decision_type": {
+      "type": "string",
+      "enum": [
+        "choice",
+        "evaluation",
+        "clarification",
+        "creative",
+        "risk_review",
+        "action_planning"
+      ]
+    },
+    "risk_level": {
+      "type": "string",
+      "enum": [
+        "L0",
+        "L1",
+        "L2",
+        "L3",
+        "L4"
+      ]
+    },
+    "reversibility": {
+      "type": "string",
+      "enum": [
+        "low",
+        "medium",
+        "high"
+      ]
+    },
+    "known_context": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "missing_context": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "constraints": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "user_values": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "do_not_do": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "needs_professional_advice": {
+      "type": "boolean"
+    }
+  }
+}
