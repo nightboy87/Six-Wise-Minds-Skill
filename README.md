@@ -290,7 +290,7 @@ V1.0.0 已包含：
 - 输出模板；
 - JSON schemas；
 - 触发、非触发、角色边界、高风险和回归评测资产；
-- Codex、Claude Code、OpenClaw、Generic Agent 适配说明。
+- Codex、Claude Code、OpenClaw、Hermes Agent、Generic Agent 适配说明。
 
 已验证：
 

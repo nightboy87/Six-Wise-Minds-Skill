@@ -4,7 +4,7 @@
   "description": "A multi-agent decision council Skill for fuzzy decisions, with six-role deliberation, traceability, safety gates, and evaluation assets.",
   "author": {
     "name": "nightboy87",
-    "email": "night_boy@126.com",
+    "email": "199575237+nightboy87@users.noreply.github.com",
     "url": "https://github.com/nightboy87"
   },
   "homepage": "https://github.com/nightboy87/Six-Wise-Minds-Skill",
@@ -41,4 +41,3 @@
     "logo": "./assets/readme-hero-en.png"
   }
 }
-

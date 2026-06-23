@@ -16,6 +16,7 @@
     "Codex",
     "Claude Code",
     "OpenClaw",
+    "Hermes Agent",
     "Generic Agent"
   ],
   "anti_loop_policy": "Each deliberation allows at most one local repair pass."

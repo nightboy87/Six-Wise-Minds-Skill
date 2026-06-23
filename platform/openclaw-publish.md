@@ -94,7 +94,7 @@ The main safety concern is output policy, not code execution. Reviewers should i
 Run:
 
 ```bash
-python C:\Users\night\.codex\skills\.system\skill-creator\scripts\quick_validate.py .
+python /path/to/skill-creator/scripts/quick_validate.py .
 ```
 
 Also verify:

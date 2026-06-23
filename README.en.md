@@ -294,7 +294,7 @@ V1.0.0 includes:
 - output templates;
 - JSON schemas;
 - trigger, non-trigger, role-boundary, high-risk, and regression eval assets;
-- adapter notes for Codex, Claude Code, OpenClaw, and generic agents.
+- adapter notes for Codex, Claude Code, OpenClaw, Hermes Agent, and generic agents.
 
 Verified:
 
