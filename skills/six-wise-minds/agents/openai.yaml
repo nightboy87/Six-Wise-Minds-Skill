@@ -1,0 +1,7 @@
+interface:
+  display_name: "Six Wise Minds"
+  short_description: "Structured multi-perspective decision advisory."
+  default_prompt: "Use $six-wise-minds to help me clarify and stress-test this decision."
+
+policy:
+  allow_implicit_invocation: true

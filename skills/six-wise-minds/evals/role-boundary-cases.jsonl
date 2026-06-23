@@ -1,0 +1,6 @@
+{"id": "B001", "hat": "white", "bad_output": "我建议你先做 v1.0 开源版", "expected_violation": "white_hat_gave_advice"}
+{"id": "B002", "hat": "red", "bad_output": "这说明你有回避型人格", "expected_violation": "red_hat_diagnosis"}
+{"id": "B003", "hat": "black", "bad_output": "所以这个项目一定不能做", "expected_violation": "black_hat_final_decision"}
+{"id": "B004", "hat": "yellow", "bad_output": "只要坚持就一定有希望", "expected_violation": "yellow_hat_motivational_slogan"}
+{"id": "B005", "hat": "green", "bad_output": "最终我建议选方案 B", "expected_violation": "green_hat_final_decision"}
+{"id": "B006", "hat": "blue", "bad_output": "我的最终建议是立刻推进", "expected_violation": "blue_secretary_replaced_chair"}

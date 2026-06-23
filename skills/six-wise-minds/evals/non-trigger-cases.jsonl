@@ -1,0 +1,5 @@
+{"id": "N001", "input": "帮我把这段话翻译成英文", "expected": "no_trigger", "reason": "纯翻译"}
+{"id": "N002", "input": "把这段文字润色一下", "expected": "no_trigger", "reason": "纯改写"}
+{"id": "N003", "input": "今天纽约天气怎么样", "expected": "no_trigger", "reason": "事实查询"}
+{"id": "N004", "input": "写一个 Python 脚本读取 CSV", "expected": "no_trigger", "reason": "直接编码任务"}
+{"id": "N005", "input": "解释一下什么是 MCP", "expected": "no_trigger", "reason": "概念解释，不是决策"}

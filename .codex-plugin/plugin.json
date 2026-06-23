@@ -1,0 +1,44 @@
+{
+  "name": "six-wise-minds",
+  "version": "1.0.0",
+  "description": "A multi-agent decision council Skill for fuzzy decisions, with six-role deliberation, traceability, safety gates, and evaluation assets.",
+  "author": {
+    "name": "nightboy87",
+    "email": "night_boy@126.com",
+    "url": "https://github.com/nightboy87"
+  },
+  "homepage": "https://github.com/nightboy87/Six-Wise-Minds-Skill",
+  "repository": "https://github.com/nightboy87/Six-Wise-Minds-Skill",
+  "license": "MIT",
+  "keywords": [
+    "agent-skill",
+    "ai-agents",
+    "decision-support",
+    "multi-agent",
+    "six-thinking-hats",
+    "traceability",
+    "evaluation"
+  ],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Six Wise Minds",
+    "shortDescription": "Traceable six-role decision deliberation.",
+    "longDescription": "Six Wise Minds is a document-based Agent Skill protocol for fuzzy decisions. It uses a Chair, six bounded thinking roles, a Blue Secretary process audit, one-repair anti-loop policy, trace summaries, safety gates, schemas, and evaluation assets.",
+    "developerName": "nightboy87",
+    "category": "Productivity",
+    "capabilities": [
+      "Decision Support",
+      "Traceability",
+      "Evaluation"
+    ],
+    "websiteURL": "https://github.com/nightboy87/Six-Wise-Minds-Skill",
+    "defaultPrompt": [
+      "Use Six Wise Minds to clarify this decision.",
+      "Run a six-role deliberation on this fuzzy issue.",
+      "Stress-test this product decision with Six Wise Minds."
+    ],
+    "brandColor": "#334155",
+    "logo": "./assets/readme-hero-en.png"
+  }
+}
+

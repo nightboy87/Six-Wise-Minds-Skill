@@ -1,0 +1,72 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "FinalReport",
+  "type": "object",
+  "required": [
+    "reframed_question",
+    "recommendations",
+    "next_actions",
+    "uncertainties",
+    "trace_summary"
+  ],
+  "properties": {
+    "reframed_question": {
+      "type": "string"
+    },
+    "recommendations": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "recommendation_id",
+          "recommendation",
+          "supporting_claims",
+          "counter_claims",
+          "uncertainty",
+          "next_action"
+        ],
+        "properties": {
+          "recommendation_id": {
+            "type": "string"
+          },
+          "recommendation": {
+            "type": "string"
+          },
+          "supporting_claims": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "counter_claims": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "uncertainty": {
+            "type": "string"
+          },
+          "next_action": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    "next_actions": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "uncertainties": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "trace_summary": {
+      "type": "object"
+    }
+  }
+}

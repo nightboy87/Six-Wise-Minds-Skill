@@ -1,0 +1,92 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "HatOutput",
+  "type": "object",
+  "required": [
+    "agent_id",
+    "hat",
+    "claims",
+    "boundary_check"
+  ],
+  "properties": {
+    "agent_id": {
+      "type": "string"
+    },
+    "hat": {
+      "type": "string",
+      "enum": [
+        "white",
+        "red",
+        "black",
+        "yellow",
+        "green",
+        "blue"
+      ]
+    },
+    "claims": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "claim_id",
+          "claim_type",
+          "content",
+          "based_on",
+          "confidence",
+          "actionability"
+        ],
+        "properties": {
+          "claim_id": {
+            "type": "string"
+          },
+          "claim_type": {
+            "type": "string"
+          },
+          "content": {
+            "type": "string"
+          },
+          "based_on": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "confidence": {
+            "type": "string",
+            "enum": [
+              "low",
+              "medium",
+              "high"
+            ]
+          },
+          "actionability": {
+            "type": "string",
+            "enum": [
+              "low",
+              "medium",
+              "high"
+            ]
+          }
+        }
+      }
+    },
+    "repair_decision": {
+      "type": "object"
+    },
+    "boundary_check": {
+      "type": "object",
+      "required": [
+        "violated",
+        "notes"
+      ],
+      "properties": {
+        "violated": {
+          "type": "boolean"
+        },
+        "notes": {
+          "type": "string"
+        }
+      }
+    }
+  }
+}

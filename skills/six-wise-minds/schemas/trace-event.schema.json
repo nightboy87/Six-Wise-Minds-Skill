@@ -1,0 +1,58 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "TraceEvent",
+  "type": "object",
+  "required": [
+    "ts",
+    "run_id",
+    "stage",
+    "agent_id",
+    "event",
+    "level",
+    "summary"
+  ],
+  "properties": {
+    "ts": {
+      "type": "string"
+    },
+    "run_id": {
+      "type": "string"
+    },
+    "stage": {
+      "type": "string"
+    },
+    "agent_id": {
+      "type": "string"
+    },
+    "event": {
+      "type": "string"
+    },
+    "level": {
+      "type": "string",
+      "enum": [
+        "info",
+        "warn",
+        "error",
+        "decision"
+      ]
+    },
+    "input_ref": {
+      "type": "string"
+    },
+    "output_ref": {
+      "type": "string"
+    },
+    "duration_ms": {
+      "type": "integer"
+    },
+    "summary": {
+      "type": "string"
+    },
+    "trace_refs": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    }
+  }
+}
