@@ -32,7 +32,6 @@ Primary language: [中文](README.md)
 - [Observability, traceability, evaluation](#observability-traceability-evaluation)
 - [Safety boundaries](#safety-boundaries)
 - [Repository structure](#repository-structure)
-- [Platform submission status](#platform-submission-status)
 - [Current status](#current-status)
 - [License](#license)
 
@@ -283,18 +282,6 @@ six-wise-minds-skill/
 │   └── six-wise-minds/
 └── platform/
 ```
-
-## Platform submission status
-
-This repository now includes multi-platform submission materials:
-
-- Codex plugin manifest: `.codex-plugin/plugin.json`
-- Codex plugin distribution copy: `skills/six-wise-minds/`
-- OpenClaw / ClawHub publish checklist: `platform/openclaw-publish.md`
-- Hermes Agent adapter notes: `platform/hermes.md`
-- Unified submission notes: `SUBMISSION.md`
-
-Note: `skills/six-wise-minds/` is a distribution copy kept for the Codex plugin manifest's `skills/` directory requirement. The root-level files remain the source Skill package. Keep both locations in sync when changing the core protocol.
 
 ## Current status
 

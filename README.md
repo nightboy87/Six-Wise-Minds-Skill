@@ -30,7 +30,6 @@
 - [可观测、可溯源、可评测](#可观测可溯源可评测)
 - [安全边界](#安全边界)
 - [仓库结构](#仓库结构)
-- [平台提交状态](#平台提交状态)
 - [当前状态](#当前状态)
 - [许可证](#许可证)
 
@@ -279,18 +278,6 @@ six-wise-minds-skill/
 │   └── six-wise-minds/
 └── platform/
 ```
-
-## 平台提交状态
-
-本仓库已经补齐多平台提交材料：
-
-- Codex plugin manifest：`.codex-plugin/plugin.json`
-- Codex plugin 分发副本：`skills/six-wise-minds/`
-- OpenClaw / ClawHub 发布检查：`platform/openclaw-publish.md`
-- Hermes Agent 适配说明：`platform/hermes.md`
-- 统一投稿说明：`SUBMISSION.md`
-
-注意：`skills/six-wise-minds/` 是为了满足 Codex plugin manifest 对 `skills/` 目录的要求而保留的分发副本。根目录仍是源 Skill 包。修改核心协议时，应同步这两处内容。
 
 ## 当前状态
 
